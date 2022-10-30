@@ -1,0 +1,83 @@
+.container {
+    text-align: center;
+    border: 5px #121212 solid;
+    margin: 5px;
+  
+  }
+  
+  .Primary {
+      background-color: #BB86FC;
+      color: black;
+  }
+  
+  .PrimaryVar {
+      background-color: #3700B3;
+      color: white;
+  }
+  
+  .Secondary {
+      background-color: #03DAC6;
+      color: black;
+  }
+  
+  .Background {
+      background-color: #121212;
+      color: white;
+  }
+  
+  .Surface {
+      background-color: #121212;
+      color: white;
+  }
+  
+  .Error {
+      background-color: #CF6679;
+      color: black;
+  }
+  
+  .OnPrimary {
+      background-color: #000000;
+      color: white;
+  }
+  
+  .OnSecondary {
+      background-color: #000000;
+      color: white;
+  }
+  
+  .OnBackground {
+      background-color: #FFFFFF;
+      color: black;
+  }
+  
+  .OnSurface {
+      background-color: #FFFFFF;
+      color: black;
+  }
+  
+  .OnError {
+      background-color: #000000;
+      color: white;
+  }
+  
+  .color-panels {
+      display: flex;
+      flex-flow: row wrap;
+      text-align: center;
+      justify-content: center;
+  }
+  
+  
+  .color-panel{
+  flex: 1 1 200px;
+  margin: 5px;
+  }
+  
+  body {
+  
+      background-color: #D3D3D3;
+  }
+  
+  
+  
+  
