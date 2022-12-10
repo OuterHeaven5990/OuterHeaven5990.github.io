@@ -24,6 +24,11 @@
       background-color: #121212;
       color: white;
   }
+
+  .BackgroundSecondary{
+    background-color: #5A5A5A;
+    color: white;
+  }
   
   .Surface {
       background-color: #121212;
@@ -72,12 +77,7 @@
   flex: 1 1 200px;
   margin: 5px;
   }
-  
-  body {
-  
-      background-color: #D3D3D3;
-  }
-  
+
   
   
   

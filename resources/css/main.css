@@ -1,19 +1,36 @@
-* {
-    font-family: Helvetica, Arial, sans-serif;
-  }
-   
-   
-  h1 {
-    color: SeaGreen;
-  }
-   
-   
-  p, 
-  li {
-    font-size: 18px;
-  }
-   
-   
-  a {
-    text-decoration: none;
-  }
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #BB86FC;
+}
+
+.nav li {
+  float: right;
+}
+
+.nav li a {
+  display: block;
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.nav li a:hover {
+  background-color: #000000;
+  color: white;
+}
+
+body {
+
+margin: 0;
+
+}
+
+main{
+  text-align: center;
+}
