@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #BB86FC;
+  background-color: #ff0000;
 }
 
 .nav li {
@@ -12,7 +12,7 @@
 
 .nav li a {
   display: block;
-  color: black;
+  color: white;
   font-weight: bolder;
   text-align: center;
   padding: 14px 16px;
@@ -21,13 +21,14 @@
 
 
 .nav li a:hover {
-  background-color: #000000;
+  background-color: #bd0000;
   color: white;
 }
 
 body {
 
 margin: 0;
+background-color:#ebeced ;
 
 }
 
