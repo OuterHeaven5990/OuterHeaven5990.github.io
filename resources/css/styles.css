@@ -13,8 +13,11 @@
   .Background {
       background-color: #ebeced;
       color: black;
-      border: #000000 5px solid;
       
+  }
+
+  .border {
+    border: #000000 5px solid;
   }
   
   .Error {
