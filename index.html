@@ -4,12 +4,11 @@
   <title></title>
   <link href="./resources/css/main.css" type="text/css" rel="stylesheet">
   <link href="./resources/css/styles.css" type="text/css" rel="stylesheet">
+  <script src="./resources/js/scripts.js"></script>
 </head>
 <body class="Background">
   <div class ="nav Primary">
-      <ul>
-        <li><a href="styleGuide.html"> Style Guide</a></li>
-      </ul>
+    <button class="openbtn" onclick="openNav()">&#9776;</button>
   </div>
 
   <main>
@@ -31,6 +30,14 @@
     </div>
  </main>
 
+
+ <!-- Side Bar -->
+
+ <div id="navSideBar" class="sidebar">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="styleGuide.html"> Style Guide</a>
+  <a href="#">Contact</a>
+</div>
 
 
 </body>
