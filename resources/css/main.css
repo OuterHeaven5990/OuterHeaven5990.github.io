@@ -32,6 +32,10 @@ background-color:#ebeced ;
 
 }
 
+main li{
+  list-style-position: inside;
+}
+
 main{
   text-align: center;
 }
